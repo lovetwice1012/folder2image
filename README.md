@@ -1,4 +1,4 @@
-# FolderCodec
+# folder2image
 
 A command-line tool to encode and decode folders into PNG images using palette-based bit mapping, optional AES-GCM encryption, and Zfec-based erasure coding for fault tolerance.
 
@@ -98,7 +98,7 @@ See [LICENSE](LICENSE) for details.
 
 ---
 
-# FolderCodec（日本語）
+# folder2image（日本語）
 
 PNG 画像へのパレットベースのビットマッピング、AES-GCM 暗号化（任意）、および Zfec ベースの冗長化を使用して、フォルダのエンコードとデコードを行うコマンドラインツール。
 
