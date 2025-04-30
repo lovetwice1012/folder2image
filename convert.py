@@ -28,10 +28,10 @@ def sha256_hex(data: bytes) -> str:
     return hashlib.sha256(data).hexdigest()
 
 class FolderCodec:
-    \"\"\"
+    """
     Handles encoding/decoding of folders into optional encrypted,
     bit-encoded images with zfec-based erasure coding and file-hash verification.
-    \"\"\"
+    """
     def __init__(self,
                  width=15360, height=8640,
                  proc_workers=None, io_workers=None,
